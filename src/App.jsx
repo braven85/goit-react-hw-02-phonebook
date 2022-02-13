@@ -1,12 +1,14 @@
 import './App.css';
 import React from 'react';
-import ContactForm from './components/ContactForm';
+
 import { nanoid } from 'nanoid';
+import { Repository } from './components/Repository';
+import HorizontalLine from './components/HorizontalLine';
+import PropTypes from 'prop-types';
+
+import ContactForm from './components/ContactForm';
 import ContactsList from './components/ContactsList';
 import { Filter } from './components/Filter';
-import HorizontalLine from './components/HorizontalLine';
-import { Repository } from './components/Repository';
-import PropTypes from 'prop-types';
 
 class App extends React.Component {
   state = {
